@@ -10,7 +10,7 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Копеечка</h3>
             <p className="text-gray-300 mb-4">
-              Магазин хозяйственных товаров для дома, сада и огорода. 
+              Магазин хозяйственных товаров для дома. 
               У нас вы найдете всё необходимое для комфортной жизни.
             </p>
             <div className="flex space-x-4">
@@ -34,7 +34,6 @@ const Footer = () => {
               <li><Link to="/catalog?category=bathroom" className="hover:text-store-accent transition-colors">Для ванной</Link></li>
               <li><Link to="/catalog?category=cleaning" className="hover:text-store-accent transition-colors">Уборка</Link></li>
               <li><Link to="/catalog?category=storage" className="hover:text-store-accent transition-colors">Хранение</Link></li>
-              <li><Link to="/catalog?category=garden" className="hover:text-store-accent transition-colors">Садовые товары</Link></li>
               <li><Link to="/catalog?category=tools" className="hover:text-store-accent transition-colors">Инструменты</Link></li>
             </ul>
           </div>

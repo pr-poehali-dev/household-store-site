@@ -17,7 +17,6 @@ const categories = [
   { name: "Для ванной", link: "/catalog?category=bathroom" },
   { name: "Уборка", link: "/catalog?category=cleaning" },
   { name: "Хранение", link: "/catalog?category=storage" },
-  { name: "Садовые товары", link: "/catalog?category=garden" },
   { name: "Инструменты", link: "/catalog?category=tools" }
 ];
 
