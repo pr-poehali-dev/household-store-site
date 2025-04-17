@@ -48,7 +48,7 @@ const Header = () => {
         <div className="flex justify-between items-center">
           {/* Логотип */}
           <Link to="/" className="font-bold text-2xl text-store-dark">
-            ДомоСтрой
+            Копеечка
           </Link>
 
           {/* Поиск - скрывается на мобильных */}

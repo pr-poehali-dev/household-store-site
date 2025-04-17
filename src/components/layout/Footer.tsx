@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Блок с информацией о компании */}
           <div>
-            <h3 className="text-xl font-bold mb-4">ДомоСтрой</h3>
+            <h3 className="text-xl font-bold mb-4">Копеечка</h3>
             <p className="text-gray-300 mb-4">
               Магазин хозяйственных товаров для дома, сада и огорода. 
               У нас вы найдете всё необходимое для комфортной жизни.
@@ -61,7 +61,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-2">
                 <Mail size={18} className="text-store-accent" />
-                <a href="mailto:info@domostroy.ru" className="hover:text-store-accent transition-colors">info@domostroy.ru</a>
+                <a href="mailto:info@kopeechka.ru" className="hover:text-store-accent transition-colors">info@kopeechka.ru</a>
               </li>
               <li className="flex items-center gap-2">
                 <MapPin size={18} className="text-store-accent" />
@@ -76,7 +76,7 @@ const Footer = () => {
         
         {/* Копирайт */}
         <div className="border-t border-gray-700 mt-8 pt-6 text-center text-gray-400">
-          <p>© 2024 ДомоСтрой. Все права защищены.</p>
+          <p>© 2024 Копеечка. Все права защищены.</p>
         </div>
       </div>
     </footer>
